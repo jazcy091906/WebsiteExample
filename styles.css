@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #ffecb3, #ff6f61);
+    font-family: 'Impact', 'Arial Black', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #fff8e1;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    text-align: center;
+    padding: 32px;
+}
+h1 {
+    color: #d32f2f;
+    font-size: 2.5em;
+    margin-bottom: 24px;
+    text-shadow: 2px 2px 0 #fff176;
+}
+.main-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+.teaser {
+    font-size: 1.3em;
+    color: #f57c00;
+    margin-bottom: 24px;
+}
+#reveal-btn {
+    background: linear-gradient(90deg, #ff9800, #f44336);
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: transform 0.1s;
+}
+#reveal-btn:hover {
+    transform: scale(1.08);
+    background: linear-gradient(90deg, #f44336, #ff9800);
+}
